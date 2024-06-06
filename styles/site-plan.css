@@ -15,12 +15,12 @@ Fonts are separated by a | */
   --paragraph-font: Ubuntu Mono, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #748E54;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #748E54; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --headline-color-on-white: black;  /* headlines on a white background */ 
+  --headline-color-on-color: black; /* headlines on a colored background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: black; /* paragraph text on a colored background */ 
   --paragraph-background-color: #748E54;
-  --nav-link-color: white;
+  --nav-link-color: black;
   --nav-background-color: #955E42;
   --nav-hover-link-color: #EAFDF8;
   --nav-hover-background-color: #9C914F;
