@@ -5,8 +5,8 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #37505C   ;
-  --secondary-color: #748E54;
+  --primary-color: #748E54;
+  --secondary-color: #37505C;
   --accent1-color: #955E42;
   --accent2-color: #EAFDF8;
 
@@ -15,15 +15,15 @@ Fonts are separated by a | */
   --paragraph-font: Ubuntu Mono, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #748E54;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #748E54; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --paragraph-background-color: #748E54;
+  --nav-link-color: white;
+  --nav-background-color: #955E42;
+  --nav-hover-link-color: #EAFDF8;
+  --nav-hover-background-color: #9C914F;
 }
 
 
