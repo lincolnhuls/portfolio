@@ -31,6 +31,7 @@ nav a:hover {
     border-radius: 25px;
 }
 .colorandcenter {
+    display: grid;
     justify-self: center;
     align-self: center;
     background-color: #955E42;
@@ -38,7 +39,7 @@ nav a:hover {
     padding: 7%;
     font-family: Ubuntu Mono, Helvetica, sans-serif;
 }
-.about_me_header {
+h1 {
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 2%;
@@ -133,6 +134,35 @@ footer a:hover {
     justify-self: center;
     align-self: center;
     font-size: 1.75em;
+}
+.parallax {
+    background-image: url(../images/game.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0;
+    border-bottom: 10px solid #748E54;
+}
+.parallax_two {
+    background-image: url(../images/flask.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0;
+}
+.personal_size {
+    font-size: 1.5em;
+}
+#personalheadline {
+    display: inline-block;
+    border: 2px solid #955E42;
+    padding: 2%;
+    background-color: #955E42;
+    border-radius: 25px;
 }
 
 
