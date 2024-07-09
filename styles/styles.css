@@ -164,6 +164,47 @@ footer a:hover {
     background-color: #955E42;
     border-radius: 25px;
 }
+#work-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 20% 1fr;
+    margin: 5%;
+}
+#mission {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 10%;
+    align-self: center;
+    justify-self: center;
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 25px;
+}
+#workheadline {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
+}
+#wendys {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 10%;
+    align-self: center;
+    justify-self: center;
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 25px;
+}
+#workpara {
+    grid-column: 1/4;
+    grid-row: 2/6;
+    font-size: 1.5em;
+}
 
 
 
